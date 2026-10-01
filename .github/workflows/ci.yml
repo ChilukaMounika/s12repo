@@ -39,5 +39,5 @@ jobs:
         if: always()
         uses: vercel/repository-dispatch/actions/status@v1
         with:
-          name: "Vercel - s10-23: lint"
+          name: "Vercel - s12repo: lint"
           github_token: ${{ secrets.GITHUB_TOKEN }}
